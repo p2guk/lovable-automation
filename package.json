@@ -1,0 +1,17 @@
+{
+  "name": "lovable-automation-service",
+  "version": "1.0.0",
+  "description": "Headless Chrome service for automating Lovable AI chat fixes, called by n8n",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "puppeteer": "^23.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
